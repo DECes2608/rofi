@@ -3,10 +3,10 @@
     cur: #ffffff15;
     fg: #ffffff;
     fg-alt: #ffffff50;
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: transparent;
     text-color: @fg;
-    font: "FantasqueSansM Nerd Font Mono 11";
+    font: "Hack Nerd Font Mono 11";
 }
 
 window {
@@ -29,21 +29,22 @@ inputbar {
 }
 
 entry {
-    placeholder: "Ara...";
-    placeholder-color: @fg-alt;
-    text-color: @fg;
+    placeholder: "Be yourself!";
+    placeholder-color: @fg;
+    text-color: @fg-alt;
 }
 
 listview {
     lines: 5;
     columns: 1;
     fixed-height: true;
-    margin: 14px 0 0;
+    margin-color: #fcfcfc;
+    margin: 14px 2px 2px;
 }
 
 element {
     padding: 8px 12px;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 element selected {
